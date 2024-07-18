@@ -9,7 +9,7 @@
 /* Shared Style */
 .body-area{
    
-    
+    background-color: black;
     width: 1200px  ;
     height: max-content;
 }
@@ -25,7 +25,7 @@
 ./* nav bar start */
 
 .nav-bar{
-    width: 1000px;
+    width: 80%;
     height: max-content;
     
 }
@@ -49,7 +49,9 @@
 .nav-links-1,.nav-links-2, .nav-links-3, .nav-links-4{
     color: white;
 }
-
+.shape-style{
+    font-style: italic;
+}
 .btn{
     background-color: aqua;
     border: 5vh;
@@ -62,6 +64,7 @@
 /* Section one start */
 .section-one{
     width: 80%;
+    height: max-content;
 }
 .banner-container{
     width: 70%;
@@ -82,7 +85,9 @@
 .banner-headline{
     color: white;
 }
-
+.banner-imege{
+    height: 50%;
+}
 /* Section one end */
 
 
