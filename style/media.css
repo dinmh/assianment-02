@@ -1,71 +1,70 @@
-@media screen and (max-width: 576px;) {
-    .body-area{
-   
-        background-color: greenyellow;
-        width: 576px  ;
-        height: max-content;
-    }
-    .nav-bar{
-        width: 80%;
-        height: max-content;
-        
-    }
-    .nav-content{
-        color: rgb(221, 77, 25);
-    }
-    .nav-headline{
-        padding-top: 2%;
-        width: 50%;
-        padding-left: 2%;
-        
-    }
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 576px) {
+    .nav-links, .section-one{
+        flex-direction: column;
+        margin: 0 auto;
+    } 
     .nav-links{
-        width: 50%;
-        list-style: none; 
-        padding-left: 1%;
-        padding-right: 1%;
-        justify-content: space-between;
-         
+        display: none;
     }
-    .nav-links-1,.nav-links-2, .nav-links-3, .nav-links-4{
-        color: white;
+
+    .nav-bar{
+        flex-direction: column;
+
     }
-    .shape-style{
-        font-style: italic;
-    }
-    .btn{
-        background-color: aqua;
-        border: 5vh;
-        border-radius: 5%;
-        padding: auto;
-    }
-    
-    /* nav bar end */
-    
-    /* Section one start */
-    .section-one{
-        width: 80%;
+
+    /* section one */
+    .banner-image{
+        text-align: center;
     }
     .banner-container{
-        width: 70%;
-        padding-left: 1%;
-        padding-right: 1%;
-        flex-direction: column;
-        align-items: last baseline;
+        text-align: center;
     }
-    .btn-section{
-       gap: 10%;
-       padding-top: 1%;
-       
-    }
-    
     .banner-text{
-        color: white;
+        text-align: left;
+        padding-left: 5%;
     }
     .banner-headline{
-        color: white;
+        text-align: left;
+        padding-left: 5%;
     }
-    
-    /* Section one end */
-    
+
+    /* section two */
+    .section-two-container{
+        flex-direction: column;
+    }
+    /* section-three */
+    .section-three{
+        flex-direction: column;
+    }
+
+    .section-four-item{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section-five{
+        text-align: center;
+    }
+    .section-six{
+        flex-direction: column;
+        padding-bottom: 2%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin: 0 auto;
+    }
+    .section-six-table-part{
+        padding-bottom: 2%;
+        text-align: center;
+        
+    }
+    .section-seven-item{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-part-1{
+        flex-direction: column;
+        text-align: left;
+    }
 }

@@ -7,93 +7,289 @@
 
 
 /* Shared Style */
+h1{
+    font-size: xx-large;
+    font: bolder;
+}
 .body-area{
-   
     background-color: black;
-    width: 1200px  ;
-    height: max-content;
+    max-width: 1200px;
 }
 .text-color{
     color: white;
+    
+}
+.text-color-2{
+    color: solid rgba(236, 226, 226, 0.877);
 }
 .display-flex{
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    
+    display: flex;  
 }
-./* nav bar start */
+.btn{
+    border-radius: 25%;
+}
+.main-bar{
+    margin-bottom: 10px;
+}
 
-.nav-bar{
-    width: 80%;
-    height: max-content;
-    
-}
-.nav-content{
-    color: rgb(221, 77, 25);
-}
-.nav-headline{
-    padding-top: 2%;
-    width: 50%;
-    padding-left: 2%;
-    
-}
-.nav-links{
-    width: 50%;
-    list-style: none; 
-    padding-left: 1%;
-    padding-right: 1%;
-    justify-content: space-between;
-     
-}
-.nav-links-1,.nav-links-2, .nav-links-3, .nav-links-4{
-    color: white;
+./* nav bar start */
+.header-part{
+    width: 90%;
 }
 .shape-style{
     font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.btn{
-    background-color: aqua;
-    border: 5vh;
-    border-radius: 5%;
-    padding: auto;
+.nav-bar{
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 0 auto;
 }
-
-/* nav bar end */
-
-/* Section one start */
-.section-one{
-    width: 80%;
-    height: max-content;
-}
-.banner-container{
-    width: 70%;
-    padding-left: 1%;
-    padding-right: 1%;
-    flex-direction: column;
-    align-items: last baseline;
-}
-.btn-section{
-   gap: 10%;
-   padding-top: 1%;
-   
-}
-
-.banner-text{
-    color: white;
+.nav-hamburger{
+    
 }
 .banner-headline{
-    color: white;
+    padding-left: 1%;
 }
-.banner-imege{
-    height: 50%;
+.nav-links{
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+   
 }
-/* Section one end */
+.nav-content{
+    color: rgb(231, 35, 35);
+}
 
+/* section-one */
+.section-one{
+    align-items: center;
+    max-width: 800px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1%;
+}
+.btn-3{
+    border: 2px red;
+    border-radius: 5%;
+    background-color:transparent solid rgba(190, 168, 168, 0.534);
+    height: max-content;
+    max-width: max-content;
+    padding: 1%; 
+    margin-left: 45px;
+    position: absolute;
+    margin-top: 80px;
+}
+
+#box-2{
+    font-size: .5rem; 
+}
+#box-text-1{
+    font-size: 2rem;
+}
+.btn-4{
+    border: 2px red;
+    border-radius: 5%;
+    align-items: center;
+    background-color:transparent solid rgba(190, 168, 168, 0.534);
+    height: max-content;
+    max-width: max-content;
+    padding: 1%; 
+    margin-left: 45px;
+    position: absolute;
+    margin-top: -90px;
+}
+.inner-btn{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(238, 65, 65);
+    
+}
+#box{
+    font-size: .5rem; 
+}
+#box-text{
+    font-size: 2rem;
+}
+.banner-text{
+    padding: 1rem;
+}
+.banner-image img{
+    width: 50%;
+    height: 20%;
+    
+}
+.banner-image{
+    border: 2px solid red;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+
+    position: relative;
+}
 
 /* section two start */
 .section-two{
+    max-width: 800px;
+    height: max-content;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1%;
+}
+.section-two-container{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section-two-container-1 img{
+    border-radius: 100%;
+}
+
+/* section-three */
+.section-three{
+    max-width: 800px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    height: max-content;
+    padding: 1%;
+    justify-content: space-between;
+    background-color: solid rgb(92, 92, 92);
+}
+.section-three-2 img{
+    max-width: 190px;
+    max-height: 190px;
+}
+
+/* section-four */
+.section-four{
+    max-width: 800px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    height: max-content;
+    border: 2px solid red;
+    padding: 1%;
+    justify-content: space-between;
+}
+.section-four-content{
+    text-align: left;
+    padding-left: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.section-four-item img{
+    width: 16rem;
+    height: 10rem;
+    margin: 0 auto;
+}
+.section-four-item{
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr;
+}
+
+/* section-five */
+.section-five{
+    margin: 0 auto;
+    max-width: 800px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* section-six */
+.section-six{
+    background-color: rgb(50, 51, 53);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    justify-content: space-between;
+}
+.section-six-table-part{
+    max-width: 30%;
+    border: 2px red;
+}
+.section-six-table-calculation{
+    max-width: 50%;
+    border: 2px red;
+}
+.six-table{
+    border-collapse: collapse;
+}
+.six-table-headline{
+    width: max-content;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.six-table, th, td{
+    border: 2px solid black;
+    padding: 10px;
+    width: max-content;
+    
+}
+
+/* section-seven trainer list*/
+.section-seven{
+    max-width: 800px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    height: max-content;
+    border: 2px solid red;
+    padding: 1%;
+}
+.section-seven-item img{
+    width: 16rem;
+    height: 10rem;
+    border-radius: 5%;
+}
+.section-seven-item{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
 
 }
-/* section two end */
 
+/* footer part */
+.footer{
+    max-width: 1200px;
+    background-color: solid rgb(61, 60, 60);
+}
+.footer-highligts-option{
+    list-style: none;
+}
+.footer-part-1{
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    gap: 20px;
+}
+.footer-part-2{
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footer-headline-1{
+    color: rgb(241, 57, 57);
+    font-size: xx-large;
+    font: 800;
+}
