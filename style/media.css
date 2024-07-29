@@ -7,7 +7,7 @@
     .nav-links, .section-one{
         flex-direction: column;
         margin: 0 auto;
-    } 
+    }
     .nav-links{
         display: none;
     }
@@ -45,20 +45,86 @@
         flex-direction: column;
     }
 
+
+/* section four */
     .section-four-item{
-        display: flex;
-        flex-direction: column;
-        
-        
+        border: 2px red;
+        display: grid;
+        grid-template-columns:repeat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        margin: 0 auto;
     }
+    .item-1{
+        grid-column: 1/span 5;
+        grid-row: 1/span 4;
+        position: relative;
+    }
+    .text-1{
+        position: absolute;
+        margin-top: -2.5rem;
+        margin-left: 2rem;
+    }
+    .item-2{
+        grid-column: 6/span 12;
+        grid-row: 1/span 4;
+        position: relative;
+    } 
+    .text-2{
+        position: absolute;
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+    } 
+    .item-3{
+
+        grid-column: 1/span 6;
+        grid-row: 5/span 4;
+        position: relative;
+    } 
+    .text-3{
+        position: absolute;
+        margin-left: 1.5rem;
+        margin-top: -2rem;
+    } 
+    .item-4{
+        grid-column: 7/span 12;
+        grid-row: 5/span 4;
+        position: relative;
+    } 
+    .text-4{
+        position: absolute;
+        margin-left: 10rem;
+        margin-top: 1rem;  
+    }
+    .item-5{
+        grid-column: 1/span 6;
+        grid-row: 9/span 12;
+        position: relative;
+    }
+    .text-5{
+        position: absolute;
+        margin-top: -2.5rem;
+        margin-left: 2.5rem;
+    }
+    .item-6{
+        grid-column: 7/span 12;
+        grid-row: 9/span 12;
+        position: relative;
+    }
+    .text-6{
+        position: absolute;
+        margin-top: -2.5rem;
+        margin-left: 1.5rem;
+    } 
+
     .section-four-item img{
-        width: 40%;
+        max-width: 100%;
     }
 
-
+/* section five */
     .section-five{
         text-align: center;
     }
+    /* section six */
     .section-six{
         flex-direction: column;
         padding-bottom: 2%;
@@ -69,13 +135,70 @@
     .section-six-table-part{
         padding-bottom: 2%;
         text-align: center;
-        
+
     }
+    /* section seven */
     .section-seven-item{
         grid-template-columns: repeat(1, 1fr);
     }
+    .item-11{
+        position: relative;
+        }
+        .item-22{
+            position: relative;
+        }
+        .item-33{
+            position: relative;
+        }
+        .item-44{
+            position: relative;
+        }
+        .item-55{
+            position: relative;
+        }
+        .item-66{
+            position: relative;
+        }
+        .item-11-text{
+            position: absolute;
+            margin-top: -3rem;
+            margin-left: 7.5rem;
+            text-align: left;
+        }
+        .item-22-text{
+            position: absolute;
+            margin-top: -3rem;
+            margin-left: 7.5rem;
+            text-align: left;
+        }
+        .item-33-text{
+            position: absolute;
+            margin-top: -3.9rem;
+            margin-left: 7.5rem;
+            text-align: left;
+        }
+        .item-44-text{
+            position: absolute;
+            margin-top: -3rem;
+            margin-left: 7.5rem;
+            text-align: left;
+        }
+        .item-55-text{
+            position: absolute;
+            margin-top: -3rem;
+            margin-left: 7.5rem;
+            text-align: left;
+        }
+        .item-66-text{
+            position: absolute;
+        margin-top: -3rem;
+        margin-left: 7.5rem;
+        text-align: left;
+        }
+
     .footer-part-1{
         flex-direction: column;
         text-align: left;
+
     }
 }

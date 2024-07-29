@@ -151,26 +151,31 @@ h1{
 .section-two{
     max-width: 800px;
     height: max-content;
-    flex-direction: column;
     text-align: center;
     align-items: center;
     margin: 0 auto;
     padding: 2%;
-    gap: 1%;
 }
 .section-two-container{
     flex-direction: row;
     justify-content: space-between;
-}
-.section-two-content{
     margin: 0 auto;
 }
+.section-two-content{
+    padding: 2%;
+}
+
 .section-two-container-1 img{
     border-radius: 100%;
 }
 .section-two-container-1{
-    padding: 2%;
+    margin: 5px;
+
 }
+.text-color-2{
+    color: #fffcfc81;
+}
+
 
 /* section-three */
 .section-three{
@@ -181,13 +186,16 @@ h1{
     height: max-content;
     padding: 2%;
     justify-content: space-between;
-    background-color: solid #83737369;
+    background-color: #3b373780;
+    
 }
 .section-three-2 img{
     max-width: 190px;
     max-height: 190px;
     border-radius: 5%;
 }
+
+
 
 /* section-four */
 .section-four{
@@ -196,7 +204,6 @@ h1{
     align-items: center;
     margin: 0 auto;
     height: max-content;
-    border: 2px solid red;
     padding: 1%;
     justify-content: space-between;
 }
@@ -282,6 +289,7 @@ h1{
     margin-left: 1.5rem;
 }
 
+
 /* section-five */
 .section-five{
     margin: 0 auto;
@@ -294,7 +302,7 @@ h1{
 
 /* section-six */
 .section-six{
-    background-color: rgb(50, 51, 53);
+    background-color: rgba(76, 76, 77, 0.658);
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 3%;
@@ -336,6 +344,9 @@ h1{
     border: 2px solid red;
     padding: 1%;
 }
+.section-seven-content{
+    padding: 2%;
+}
 .section-seven-item img{
     width: 16rem;
     height: 10rem;
@@ -344,9 +355,63 @@ h1{
 .section-seven-item{
 display: grid;
 grid-template-columns: repeat(3, 1fr);
+column-gap: .5rem;
 
 }
-
+.item-11{
+position: relative;
+}
+.item-22{
+    position: relative;
+}
+.item-33{
+    position: relative;
+}
+.item-44{
+    position: relative;
+}
+.item-55{
+    position: relative;
+}
+.item-66{
+    position: relative;
+}
+.item-11-text{
+    position: absolute;
+    margin-top: -3rem;
+    margin-left: .5rem;
+    text-align: left;
+}
+.item-22-text{
+    position: absolute;
+    margin-top: -3rem;
+    margin-left: .5rem;
+    text-align: left;
+}
+.item-33-text{
+    position: absolute;
+    margin-top: -3.9rem;
+    margin-left: .5rem;
+    text-align: left;
+}
+.item-44-text{
+    position: absolute;
+    margin-top: -3rem;
+    margin-left: .5rem;
+    text-align: left;
+}
+.item-55-text{
+    position: absolute;
+    margin-top: -3rem;
+    margin-left: .5rem;
+    text-align: left;
+}
+.item-66-text{
+    position: absolute;
+margin-top: -3rem;
+margin-left: .5rem;
+text-align: left;
+}
 /* footer part */
 .footer{
     max-width: 1200px;
@@ -390,6 +455,6 @@ grid-template-columns: repeat(3, 1fr);
 }
 .footer-headline-1{
     color: rgb(241, 57, 57);
-    font-size: xx-large;
+    font-size: 3.5rem;
     font: 800;
 }
