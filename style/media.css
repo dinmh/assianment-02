@@ -4,17 +4,16 @@
 }
 
 @media screen and (max-width: 576px) {
-    .nav-links, .section-one{
+    .section-one{
         flex-direction: column;
         margin: 0 auto;
     }
     .nav-links{
         display: none;
     }
-
     .nav-bar{
-        flex-direction: column;
-
+        padding-left: 4%;
+        padding-right: 8%;
     }
 
     /* section one */
@@ -127,19 +126,19 @@
     /* section six */
     .section-six{
         flex-direction: column;
-        padding-bottom: 2%;
-        padding-top: 3%;
-        padding-bottom: 3%;
         margin: 0 auto;
     }
+
     .section-six-table-part{
         padding-bottom: 2%;
         text-align: center;
-
     }
     /* section seven */
     .section-seven-item{
         grid-template-columns: repeat(1, 1fr);
+        width: max-content;
+        margin: 0 auto;
+        padding: 2%;
     }
     .item-11{
         position: relative;
@@ -162,43 +161,47 @@
         .item-11-text{
             position: absolute;
             margin-top: -3rem;
-            margin-left: 7.5rem;
+            margin-left: .5rem;
             text-align: left;
         }
         .item-22-text{
             position: absolute;
             margin-top: -3rem;
-            margin-left: 7.5rem;
+            margin-left: .5rem;
             text-align: left;
         }
         .item-33-text{
             position: absolute;
             margin-top: -3.9rem;
-            margin-left: 7.5rem;
+            margin-left: .5rem;
             text-align: left;
         }
         .item-44-text{
             position: absolute;
             margin-top: -3rem;
-            margin-left: 7.5rem;
+            margin-left: .5rem;
             text-align: left;
         }
         .item-55-text{
             position: absolute;
             margin-top: -3rem;
-            margin-left: 7.5rem;
+            margin-left: .5rem;
             text-align: left;
         }
         .item-66-text{
             position: absolute;
         margin-top: -3rem;
-        margin-left: 7.5rem;
+        margin-left: .5rem;
         text-align: left;
         }
 
     .footer-part-1{
         flex-direction: column;
         text-align: left;
-
+        padding: 5%;
+    }
+    .footer-part-2{
+        padding: 5%;
+        text-align: left;
     }
 }
