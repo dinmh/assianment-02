@@ -1,12 +1,17 @@
 
-@media screen and (max-width: 1200px) {
-
+@media screen and (max-width: 1300px) {
+    .nav-hamburger{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 576px) {
     .section-one{
         flex-direction: column;
         margin: 0 auto;
+    }
+    .nav-hamburger{
+        display: block;
     }
     .nav-links{
         display: none;
@@ -127,12 +132,22 @@
     .section-six{
         flex-direction: column;
         margin: 0 auto;
+        width: 118%;
     }
 
     .section-six-table-part{
         padding-bottom: 2%;
         text-align: center;
     }
+    .input-section{
+         display: flex;
+         flex-direction: column;
+         padding-top: 5px;
+         width: 100%;
+         height: max-content;
+         margin: 0 auto;
+     }
+
     /* section seven */
     .section-seven-item{
         grid-template-columns: repeat(1, 1fr);
